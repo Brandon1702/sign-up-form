@@ -4,6 +4,64 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="left-side-bar">
+            <img class="image" src="skateboard.jpg">
+            <img class="logo" src="logo.jpg">
+            <p>Photo by <u>Tiago Pedro</u> on <u>Unsplash</u></p>
+        </div>
 
+        <div class="right-side-bar">
+
+            <div class="top">
+                <h2>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.
+                Sign up <em>now</em> to get started.
+                </h2>
+
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            
+            <form action="#">
+                <div class="middle">
+                    <p>Let's do this!</p>
+
+                    <div class="input">
+                    <label for="first_name">*FIRST NAME</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Tommy" required>
+                    </div>
+
+                    <div class="input">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Smith">
+                    </div>
+
+                    <div class="input">
+                    <label for="email">*EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div class="input">
+                    <label for="phone_number">*PHONE NUMBER</label>
+                    <input type="text" name="phone_number" id="phone_number" minlength="8" maxlength="10" required>
+                    </div>
+
+                    <div class="input">
+                    <label for="password">*PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                    </div>
+
+                    <div class="input">
+                    <label for="confirm_password">*CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
+                    </div>
+
+                </div>
+            
+                <div class="bottom">
+                    <button type="submit">Create Account</button>
+                
+                    <p>Already have an account? <a href="https://www.google.com/" target="_blank">Log in</a></p>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
